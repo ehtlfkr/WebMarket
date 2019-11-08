@@ -8,6 +8,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Insert title here</title>
 </head>
+<style type="text/css">
+	body {
+	background: #eee;
+}
+</style>
 <body>
 
 	<h1>상품 목록</h1> <br>
@@ -21,8 +26,8 @@
 			for(int i=0; i < list.size(); i++ ){
 				product product = list.get(i);
 		%>
-		<li>
-			<a href="product.jsp?id=<%= product.getProductId()%>">
+		<li style="width: 500px; float: left;">
+			<a href="product.jsp?id=<%= product.getProductId()%>" style=" display: block; width: 100%;">
 				<img alt="image" src="./images/<%= product.getImage()%>"style="width: 300px;">
 				<h1><%= product.getPname() %></h1>
 				<p>분류 : <%= product.getCategory() %></p>

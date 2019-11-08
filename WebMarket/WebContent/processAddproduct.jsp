@@ -8,7 +8,7 @@
 <%
 	request.setCharacterEncoding("utf-8");
 
-	String folder = "C:\\Users\\USER\\workspace\\WebMarket\\WebContent\\images";
+	String folder = "C:\\Users\\USER\\git\\WebMarket\\WebMarket\\WebContent\\images";
 	int maxsize = 5 * 1024 * 1024;
 	String encType = "utf-8";
 	

@@ -9,6 +9,11 @@
 <title>Insert title here</title>
 </head>
 <body>
+<style type="text/css">
+	body {
+	background: #eee;
+}
+</style>
 
 	<h1>상품 정보</h1> <br>
 	

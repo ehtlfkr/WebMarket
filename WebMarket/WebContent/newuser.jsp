@@ -5,6 +5,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Insert title here</title>
 </head>
+<style type="text/css">
+	body {
+	background: #eee;
+}
+</style>
 <body>
 
 	<form name="newUser" action="processAdduser.jsp" method="post">

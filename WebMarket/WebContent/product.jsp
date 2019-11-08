@@ -19,7 +19,7 @@
 	%>
 	<div>
 		<div>
-			<img alt="image" src="./images/<%= product.getImage() %>">
+			<img alt="image" src="./images/<%= product.getImage() %>" style="width: 300px;">
 		</div>
 		<div>
 			<h1>상품코드 : <%= product.getProductId() %></h1>

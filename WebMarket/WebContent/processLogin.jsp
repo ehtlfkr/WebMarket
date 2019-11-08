@@ -11,19 +11,9 @@
 	
 	String id = request.getParameter("id");
 	String password = request.getParameter("password");
+	String aid = null;
 	
-	userlist dao = userlist.getInstance();
-	ArrayList<user> list = dao.getAlluser();
-	
-	for(int i=0; i < list.size(); i++ ){
-		user user = list.get(i);
-		if(user.getId() == id && user.getPassword() == password){
-			session.setAttribute("userid", id);		
-			break;
-		}
-		
-	}
-	
+	session.setAttribute("userid", id);
 	
 	response.sendRedirect("webmarket.jsp");
 

@@ -19,7 +19,7 @@ public class productlist {
 		dd.setCategory("남성옷");
 		dd.setCondition("신상품");
 		dd.setDescription("설명");
-		dd.setImage(null);
+		dd.setImage("aaaaa.jpg");
 		dd.setManufacturer("제조사");
 		dd.setUnitsInStock(1000);
 		

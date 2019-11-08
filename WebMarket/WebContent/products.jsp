@@ -23,7 +23,7 @@
 		%>
 		<li>
 			<a href="product.jsp?id=<%= product.getProductId()%>">
-				<img alt="image" src="<%= product.getImage()%>">
+				<img alt="image" src="./images/<%= product.getImage()%>"style="width: 300px;">
 				<h1><%= product.getPname() %></h1>
 				<p>분류 : <%= product.getCategory() %></p>
 				<p>가격 : <%= product.getUnitPrice() %> 원</p>
